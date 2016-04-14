@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>6f34d049-a775-4473-a264-20d5df89586d</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>BasePrinter</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\BasePrinter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\Database.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Cajera.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Item.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ItemQty.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Orden.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Bandejero.cs" />
+  </ItemGroup>
+</Project>
