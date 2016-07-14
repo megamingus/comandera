@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopulateDb", "PrintTest\PopulateDb.csproj", "{64C084E0-B724-4869-BF5A-812C32C4F1A4}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CommonPrinter", "BasePrinter\CommonPrinter.shproj", "{6F34D049-A775-4473-A264-20D5DF89586D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tickets", "Tickets\Tickets.csproj", "{FF28170B-FD3E-425F-A657-2C99BB489B92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassPrint", "MassPrint\MassPrint.csproj", "{EC93B836-DDDC-421E-90F2-9BFC10460916}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		BasePrinter\BasePrinter.projitems*{ec93b836-dddc-421e-90f2-9bfc10460916}*SharedItemsImports = 4
+		BasePrinter\BasePrinter.projitems*{6f34d049-a775-4473-a264-20d5df89586d}*SharedItemsImports = 13
+		BasePrinter\BasePrinter.projitems*{ff28170b-fd3e-425f-a657-2c99bb489b92}*SharedItemsImports = 4
+		BasePrinter\BasePrinter.projitems*{64c084e0-b724-4869-bf5a-812c32c4f1a4}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64C084E0-B724-4869-BF5A-812C32C4F1A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C084E0-B724-4869-BF5A-812C32C4F1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C084E0-B724-4869-BF5A-812C32C4F1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C084E0-B724-4869-BF5A-812C32C4F1A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF28170B-FD3E-425F-A657-2C99BB489B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF28170B-FD3E-425F-A657-2C99BB489B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF28170B-FD3E-425F-A657-2C99BB489B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF28170B-FD3E-425F-A657-2C99BB489B92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC93B836-DDDC-421E-90F2-9BFC10460916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC93B836-DDDC-421E-90F2-9BFC10460916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC93B836-DDDC-421E-90F2-9BFC10460916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC93B836-DDDC-421E-90F2-9BFC10460916}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

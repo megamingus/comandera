@@ -27,17 +27,17 @@ namespace CommonPrinter.Utils
             {
                 var size = 0f;
                 Image img = Image.FromFile(".\\imagen.png");
-                var height =(int) ((290f / img.Width) * img.Height);
-                e1.Graphics.DrawImage(img, new Rectangle(0, 0, 290 , height));
+                var height =(int) ((284f / img.Width) * img.Height);
+                e1.Graphics.DrawImage(img, new Rectangle(0, 0, 284 , height));
 
                 size += height+10;
 
                 
                 foreach (var pi in toPrint)
                 {
-                    e1.Graphics.DrawString(pi.Text, pi.Font, new SolidBrush(Color.Black), new RectangleF(0, size, p.DefaultPageSettings.PrintableArea.Width, p.DefaultPageSettings.PrintableArea.Height));
+                    e1.Graphics.DrawString(pi.Text, pi.Font, new SolidBrush(Color.Black), new RectangleF(0, size, 284, p.DefaultPageSettings.PrintableArea.Height));
 
-                    size += e1.Graphics.MeasureString(pi.Text, pi.Font).Height;
+                    size += e1.Graphics.MeasureString(pi.Text, pi.Font, 284).Height;
                 }
                 //Image img = Image.FromFile(".\\nxYbeGG.png");
                 //e1.Graphics.DrawImage(img, new Rectangle(150, 0, 150, 150));
