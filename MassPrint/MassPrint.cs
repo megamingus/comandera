@@ -39,6 +39,8 @@ namespace Tickets
             fromTicketNumber.Left = 30;
             toTicketNumber.Left = fromTicketNumber.Right + 50;
 
+            fromTicketNumber.Maximum = toTicketNumber.Maximum = 10000000;
+
             fromTicketNumber.Enter += (s, ev) => fromTicketNumber.Controls[1].Text = "";
             toTicketNumber.Enter += (s, ev) => toTicketNumber.Controls[1].Text = "";
 
